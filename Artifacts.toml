@@ -1,9 +1,107 @@
 [[hidapi]]
-arch = "x86_64"
-git-tree-sha1 = "4ee774f57072355b71acbb5788fd60ffa98c7b94"
+arch = "aarch64"
+git-tree-sha1 = "6b1a9aef90f4a1731747cbbf8f325c22346a2a71"
 libc = "glibc"
 os = "linux"
 
     [[hidapi.download]]
-    sha256 = "e89208613ab3c933d5aecec0d33834b917e364ef0e72dc85b85f14c403512376"
+    sha256 = "0e4233e68264b3501d216a23c066ac7a089c61ffa73cff71e744f7306799b346"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.aarch64-linux-gnu.tar.gz"
+[[hidapi]]
+arch = "aarch64"
+git-tree-sha1 = "9915bd02b573b327d776ac7fe975c1503b426d11"
+libc = "musl"
+os = "linux"
+
+    [[hidapi.download]]
+    sha256 = "79a0d621da3225f55687b41d6bd5213f48abe3f3034ec0d08a1108eadd09b9ac"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.aarch64-linux-musl.tar.gz"
+[[hidapi]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "102ea68be30c1efcdf9a82ad549067390fb72c5c"
+libc = "glibc"
+os = "linux"
+
+    [[hidapi.download]]
+    sha256 = "634d1099b21d2655d88f5640f79a1b28b2717b5d9c8d5042f724077cbc5233ec"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.armv7l-linux-gnueabihf.tar.gz"
+[[hidapi]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "6a61bf70c780dbe08c1220d2da0cff4695e38159"
+libc = "musl"
+os = "linux"
+
+    [[hidapi.download]]
+    sha256 = "cc6dfa52902e896a01785a05194e3b4253df684346a16de7b99ce79e5ffd25ec"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.armv7l-linux-musleabihf.tar.gz"
+[[hidapi]]
+arch = "i686"
+git-tree-sha1 = "1dd1960b0bbf64dd12e092d7d38395624880399d"
+libc = "glibc"
+os = "linux"
+
+    [[hidapi.download]]
+    sha256 = "26af9421cf2c9ab6c35a3d63f91206205bb413820f6c20138557e35579e07e05"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.i686-linux-gnu.tar.gz"
+[[hidapi]]
+arch = "i686"
+git-tree-sha1 = "4c1226fc28ad6248240a1e89b589e5293fbd4447"
+libc = "musl"
+os = "linux"
+
+    [[hidapi.download]]
+    sha256 = "13e2c2a47beb7410478a5d5cbf7a01696507f481b1c2a7065c67ea7c658e5e49"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.i686-linux-musl.tar.gz"
+[[hidapi]]
+arch = "i686"
+git-tree-sha1 = "341a2bfe67c09d2df0a113fbaea8f25db0df85b5"
+os = "windows"
+
+    [[hidapi.download]]
+    sha256 = "b79942433448eef880e3e4a06b606fc214e5c93ea948975d3f29204f53b398e9"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.i686-w64-mingw32.tar.gz"
+[[hidapi]]
+arch = "powerpc64le"
+git-tree-sha1 = "1829441346cb5bc623bd3be8f03b5a1a4ba882a5"
+libc = "glibc"
+os = "linux"
+
+    [[hidapi.download]]
+    sha256 = "63f8235555ec8392d43b073a1ced1c606652b60b8083e4e549487fbaeffe286c"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.powerpc64le-linux-gnu.tar.gz"
+[[hidapi]]
+arch = "x86_64"
+git-tree-sha1 = "4f67c480d4664b897295212f8a2ac97f12679139"
+os = "macos"
+
+    [[hidapi.download]]
+    sha256 = "99dc861f3c31c798e443c4e13690ef4ffb10f2e3b7d9f8c57f4b80822b4ce0ad"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.x86_64-apple-darwin.tar.gz"
+[[hidapi]]
+arch = "x86_64"
+git-tree-sha1 = "ed987a61c3d4fb544b11b3db7965711773b6c8a2"
+libc = "glibc"
+os = "linux"
+
+    [[hidapi.download]]
+    sha256 = "d148c76a8223c8abd64574bf01162e2b699f639248dc1910bd702b81b30490e4"
     url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.x86_64-linux-gnu.tar.gz"
+[[hidapi]]
+arch = "x86_64"
+git-tree-sha1 = "d4f4bccb2ce98c0e705139f1d2a2cd159376afc7"
+libc = "musl"
+os = "linux"
+
+    [[hidapi.download]]
+    sha256 = "638117034874374e87a1846e608aa07e917b74b97a4bd160b1a57fa5957b1fae"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.x86_64-linux-musl.tar.gz"
+[[hidapi]]
+arch = "x86_64"
+git-tree-sha1 = "ae0535a58333ca1f5435b5e61972f006ba659d1e"
+os = "windows"
+
+    [[hidapi.download]]
+    sha256 = "e1265ef7aecbf47ca28cc8ab518bc1f796fb55af06c21d4cd01fe51cbc4bf8db"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.10.0+0/hidapi.v0.10.0.x86_64-w64-mingw32.tar.gz"

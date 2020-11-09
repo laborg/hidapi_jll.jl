@@ -14,7 +14,18 @@ The tarballs for `hidapi_jll.jl` have been built from these sources:
 
 `hidapi_jll.jl` is available for the following platforms:
 
+* `Linux aarch64 {libc=glibc}` (`aarch64-linux-gnu`)
+* `Linux aarch64 {libc=musl}` (`aarch64-linux-musl`)
+* `Linux armv7l {call_abi=eabihf, libc=glibc}` (`armv7l-linux-gnueabihf`)
+* `Linux armv7l {call_abi=eabihf, libc=musl}` (`armv7l-linux-musleabihf`)
+* `Linux i686 {libc=glibc}` (`i686-linux-gnu`)
+* `Linux i686 {libc=musl}` (`i686-linux-musl`)
+* `Windows i686` (`i686-w64-mingw32`)
+* `Linux powerpc64le {libc=glibc}` (`powerpc64le-linux-gnu`)
+* `macOS x86_64` (`x86_64-apple-darwin`)
 * `Linux x86_64 {libc=glibc}` (`x86_64-linux-gnu`)
+* `Linux x86_64 {libc=musl}` (`x86_64-linux-musl`)
+* `Windows x86_64` (`x86_64-w64-mingw32`)
 
 ## Dependencies
 
