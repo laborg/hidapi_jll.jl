@@ -1,0 +1,9 @@
+[[hidapi]]
+arch = "x86_64"
+git-tree-sha1 = "713d7f11db0be8b691877b4c2afcc326f6575c6b"
+libc = "glibc"
+os = "linux"
+
+    [[hidapi.download]]
+    sha256 = "d1da0d177d03420d7945d63d11b83d0d1073e6321c57736acb0a0c90d3af0d0f"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.11.2+0/hidapi.v0.11.2.x86_64-linux-gnu.tar.gz"
