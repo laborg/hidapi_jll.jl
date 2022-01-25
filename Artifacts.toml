@@ -7,3 +7,11 @@ os = "linux"
     [[hidapi.download]]
     sha256 = "d1da0d177d03420d7945d63d11b83d0d1073e6321c57736acb0a0c90d3af0d0f"
     url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.11.2+0/hidapi.v0.11.2.x86_64-linux-gnu.tar.gz"
+[[hidapi]]
+arch = "x86_64"
+git-tree-sha1 = "4399da86043348733ab7b3b57562f68290f1b6dc"
+os = "windows"
+
+    [[hidapi.download]]
+    sha256 = "20ba1d3cc6be0ca7deed605c2e2d0c96bb05b74fb808d311a65f4527722ecf0a"
+    url = "https://github.com/laborg/hidapi_jll.jl/releases/download/hidapi-v0.11.2+0/hidapi.v0.11.2.x86_64-w64-mingw32.tar.gz"
